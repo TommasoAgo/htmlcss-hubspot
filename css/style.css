@@ -103,4 +103,11 @@ header nav {
     padding-left: 20px;
 }
 
+/* BANNER */
+.banner {
+    height: 550px;
+    background-image: url(../img/jumbotron.png);
+    background-size: cover;
+}
+
 
