@@ -1,0 +1,103 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body {
+    font-family: "Roboto";
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+.two-col {
+    width: 50%;
+}
+
+.wide-container {
+    width: 1024px;
+    margin: auto;
+}
+
+.tight-container {
+    width: 800px;
+    margin: auto;
+}
+
+/* Buttons */
+.button {
+    padding: 10px 10px;
+    background-color: #fe7e63;
+    border-radius: 5px;
+    border: 1px solid #fe7e63;
+    color: white !important;
+}
+
+/* Menu's Common */
+.nav-menu i {
+    padding: 0 7px;
+}
+
+.grey-container nav {
+    margin: 30px 0;
+}
+
+/* HEADER */
+
+/* Grey Top Header */
+.grey-container {
+    background-color: #f4f9fd;
+    border-bottom: 1px solid black;
+}
+.nav-menu li {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Grey Header Menu Left Side */
+
+.nav-menu .nav-english {
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+
+.nav-menu .nav-contact-us {
+    padding-left: 10px;
+}
+
+/* Grey Header Menu Right Side */
+.dx-menu {
+    text-align: right;
+}
+
+.fa-search {
+    color: #0ea9c1;
+}
+
+.dx-menu .log-in a {
+    color: #fe7e63;
+    border: 1px solid #fe7e63;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.dx-menu li {
+    padding-left: 20px;
+}
+
+
