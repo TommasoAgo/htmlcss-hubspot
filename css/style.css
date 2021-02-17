@@ -43,22 +43,17 @@ body {
     color: white !important;
 }
 
+/* HEADER */
+
 /* Menu's Common */
 .nav-menu i {
     padding: 0 7px;
 }
 
-.grey-container nav {
+header nav {
     margin: 30px 0;
 }
 
-/* HEADER */
-
-/* Grey Top Header */
-.grey-container {
-    background-color: #f4f9fd;
-    border-bottom: 1px solid black;
-}
 .nav-menu li {
     display: inline-block;
     font-size: 12px;
@@ -68,6 +63,14 @@ body {
     text-decoration: none;
     color: black;
 }
+
+
+/* Grey Top Header */
+.grey-container {
+    background-color: #f4f9fd;
+    border-bottom: 1px solid black;
+}
+
 
 /* Grey Header Menu Left Side */
 
