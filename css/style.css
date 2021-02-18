@@ -287,7 +287,7 @@ main i {
 
 /* Statistics */
 /* Grid */
-.grid-one,
+.statistics .grid-one,
 .grid-two,
 .grid-three,
 .grid-four,
@@ -300,14 +300,14 @@ main i {
     padding: 25px;
 }
 
-.grid-one, 
+.statistics .grid-one, 
 .grid-two,
 .grid-three,
 .grid-four {
     border-bottom: 1px solid white;
 }
 
-.grid-one,
+.statistics .grid-one,
 .grid-two,
 .grid-three,
 .grid-five,
@@ -327,6 +327,11 @@ main i {
     color: white !important;
 }
 
+.plus {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
 /* Main third Section */
 
 /* Columns */
@@ -334,6 +339,7 @@ main i {
 /* Start Growing */
 .start-growing {
     width: 40%;
+    padding-top: 40px;
 }
 
 .customers h2 {
@@ -360,10 +366,14 @@ main i {
 /* Companies' Logos */
 .companies-logos {
     width: 60%;
-    /* TEST */
-    height: 500px;
-    background-color: black;
 }
+
+.logos {
+    width: 80%;
+    margin: auto;
+}
+
+
 
 
 
