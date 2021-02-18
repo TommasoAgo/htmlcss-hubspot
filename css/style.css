@@ -59,6 +59,10 @@ body {
     color: white !important;
 }
 
+.button-container {
+    padding: 40px 0;
+}
+
 /* HEADER */
 
 /* Menu's Common */
@@ -146,7 +150,7 @@ header nav {
     margin: 40px 0;
 }
 
-.banner-text .small-text {
+.small-text {
     font-size: 10px;
 }
 
@@ -165,6 +169,7 @@ h2, h3 {
     padding: 20px 0;
 }
 
+/* Main First Section */
 .main-first-section img {
     height: 70px;
 }
@@ -205,10 +210,6 @@ main i {
 .col-one {
     width: 40%;
     text-align: center;
-}
-
-.button-container {
-    padding: 40px 0;
 }
 
 /* Second Column */
@@ -325,6 +326,45 @@ main i {
 .statistics-text p {
     color: white !important;
 }
+
+/* Main third Section */
+
+/* Columns */
+
+/* Start Growing */
+.start-growing {
+    width: 40%;
+}
+
+.customers h2 {
+    font-size: 40px;
+}
+
+.customers {
+    width: 38%;
+    margin: auto;
+}
+
+.hubspot-today {
+    margin-top: 50px;
+}
+
+.hubspot-today h2 {
+    font-size: 28px;
+}
+
+.hubspot-today p {
+    padding-right: 60px;
+}
+
+/* Companies' Logos */
+.companies-logos {
+    width: 60%;
+    /* TEST */
+    height: 500px;
+    background-color: black;
+}
+
 
 
 
