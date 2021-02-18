@@ -268,6 +268,22 @@ main i {
     text-align: left;
 }
 
+/* Main Second Section */
+.main-second-section {
+    background-color: #00b8aa;
+}
+
+.white-text-container {
+    text-align: center;
+    padding: 40px 80px;
+    color: white;
+}
+
+.white-text-container .common-text {
+    color: white !important;
+}
+
+
 
 
 
