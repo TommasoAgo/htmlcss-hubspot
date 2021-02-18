@@ -270,7 +270,8 @@ main i {
 
 /* Main Second Section */
 .main-second-section {
-    background-color: #00b8aa;
+    background-image: linear-gradient(to right, #00abb8, #00baa9);
+    padding-bottom: 40px;
 }
 
 .white-text-container {
@@ -282,6 +283,49 @@ main i {
 .white-text-container .common-text {
     color: white !important;
 }
+
+/* Statistics */
+/* Grid */
+.grid-one,
+.grid-two,
+.grid-three,
+.grid-four,
+.grid-five,
+.grid-six,
+.grid-seven,
+.grid-eight {
+    width: 25%;
+    text-align: center;
+    padding: 25px;
+}
+
+.grid-one, 
+.grid-two,
+.grid-three,
+.grid-four {
+    border-bottom: 1px solid white;
+}
+
+.grid-one,
+.grid-two,
+.grid-three,
+.grid-five,
+.grid-six,
+.grid-seven {
+    border-right: 1px solid white;
+}
+
+/* Numbers and text */
+.statistics-number {
+    font-size: 40px;
+    color: white;
+    margin: 10px 0;
+}
+
+.statistics-text p {
+    color: white !important;
+}
+
 
 
 
