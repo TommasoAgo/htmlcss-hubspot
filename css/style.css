@@ -256,6 +256,7 @@ main i {
     padding: 30px 50px;
     border-radius: 5px;
     box-shadow: 0.5px 1px 3px grey;
+    margin-bottom: 40px;
 }
 
 .hub-col-center {
