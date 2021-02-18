@@ -12,6 +12,7 @@ a {
 /* COMMON */
 body {
     font-family: "Roboto";
+    color: #3e5164;
 }
 
 .clearfix::after {
@@ -75,7 +76,7 @@ header nav {
 }
 
 .nav-menu li a {
-    color: black;
+    color: #3e5164;
 }
 
 
@@ -159,10 +160,18 @@ header nav {
 
 /* MAIN */
 
+/* Main Common */
+h2, h3 {
+    padding: 20px 0;
+}
 /* First Section Container */
 .main-first-section {
     padding-top: 40px;
     background-color: #f4f9fd;
+}
+
+main i {
+    color: #fe7e63;
 }
 
 /* Cube Logo */
@@ -183,19 +192,51 @@ header nav {
 .free-hubspot-crm {
     padding: 50px;
     background-color: white;
-    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px grey;
 }
 
+/* First Column */
 .col-one {
-    width: 30%;
-    
-}
-
-.col-two {
-    width: 70%;
+    width: 40%;
+    text-align: center;
 }
 
 .col-one img {
     height: 70px;
 }
+
+.button-container {
+    padding: 40px 0;
+}
+
+/* Second Column */
+.col-two {
+    width: 60%;
+    padding-right: 100px;
+}
+
+.popular-feature {
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.splitting-row {
+    width: 255px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pop-text {
+    padding-right: 40px;
+}
+
+.col-two .nav-menu li {
+    padding-right: 15px;
+}
+
+
+
+
 
