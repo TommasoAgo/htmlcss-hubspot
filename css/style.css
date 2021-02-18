@@ -38,6 +38,11 @@ body {
     margin: auto;
 }
 
+.small-container {
+    width: 580px;
+    margin: auto;
+}
+
 .common-text {
     font-size: 11px;
     line-height: 22px;
@@ -163,8 +168,7 @@ header nav {
 /* Cube Logo */
 .cube-logo-box {
     text-align: center;
-    width: 580px;
-    margin: auto;
+    margin-bottom: 40px;
 }
 
 .cube-logo-box img {
@@ -175,4 +179,23 @@ header nav {
     margin: 20px 0;
 }
 
+/* Free HubSpot CRM */
+.free-hubspot-crm {
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.col-one {
+    width: 30%;
+    
+}
+
+.col-two {
+    width: 70%;
+}
+
+.col-one img {
+    height: 70px;
+}
 
