@@ -41,6 +41,7 @@ body {
 .common-text {
     font-size: 11px;
     line-height: 22px;
+    color: #3e5164;
 }
 
 /* Buttons */
@@ -121,6 +122,7 @@ header nav {
     height: 550px;
     background-image: url(../img/jumbotron.png);
     background-size: cover;
+    background-position: 0 -3%;
 }
 
 .banner-text {
@@ -148,6 +150,29 @@ header nav {
     border-top: 3px solid #33475b;
     border-bottom: 3px solid #33475b;
     background-color: #afebe4;
+}
+
+/* MAIN */
+
+/* First Section Container */
+.main-first-section {
+    padding-top: 40px;
+    background-color: #f4f9fd;
+}
+
+/* Cube Logo */
+.cube-logo-box {
+    text-align: center;
+    width: 580px;
+    margin: auto;
+}
+
+.cube-logo-box img {
+    height: 150px;
+}
+
+.cube-logo-box h2 {
+    margin: 20px 0;
 }
 
 
