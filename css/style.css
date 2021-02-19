@@ -13,6 +13,11 @@ li {
     list-style: none;
 }
 
+.grey-container {
+    position: fixed;
+    width: 100%;
+}
+
 /* COMMON */
 body {
     font-family: "Roboto";
@@ -158,6 +163,10 @@ header nav {
 /* Logo-header */
 .logo-header .nav-menu {
     line-height: 30px;
+}
+
+.logo-header {
+    padding-top: 80px;
 }
 
 /* BANNER-Jumbotron */
